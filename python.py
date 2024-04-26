@@ -22,4 +22,84 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 ''')
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.")
-input("Where are you want to go Left or Right").lower()
+choose1 = input("Firstly, you should pick a way are you want to go 'Left' or 'Right' \n").lower()
+if choose1 == "right" :
+    print("Congratulations you have picked true way and you saw big cave in the island what will you do")
+    choose2 = input("will you 'go into' or 'not' \n").lower()
+    if choose2 == "not" :
+        print("You didn't go into in this cave and you are moving on")
+        print("You saw a king in across the lake what will you do")
+        choose3 = input("Are you want to go near this king 'Yes' or 'No' \n").lower()
+        if choose3 == "Yes" :
+            print("")
+        else :
+            print('''
+                   ____
+                       / ___`\
+           /|         ( (   \ \
+      |^v^v  V|        \ \/) ) )
+      \  ____ /         \_/ / /
+      ,Y`    `,            / /
+      ||  -  -)           { }
+      \\   _\ |           | |
+       \\ / _`\_         / /
+       / |  ~ | ``\     _|_|
+    ,-`  \    |  \ \  ,//(_}
+   /      |   |   | \/  \| |
+  |       |   |   | '   ,\ \
+  |     | \   /  /\  _/`  | |
+  \     |  | |   | ``     | |
+   |    \  \ |   |        | |
+   |    |   |/   |        / /
+   |    |        |        | |
+   ''')
+            print("The king was going to take you to treasure")
+            print("GAME OVER")
+    else  :
+        print('''
+ .'"'.        ___,,,___        .'``.
+: (\  `."'"```         ```"'"-'  /) ;
+ :  \                         `./  .'
+  `.                            :.'
+    /        _         _        \
+   |         0}       {0         |
+   |         /         \         |
+   |        /           \        |
+   |       /             \       |
+    \     |      .-.      |     /
+     `.   | . . /   \ . . |   .'
+       `-._\.'.(     ).'./_.-'
+           `\'  `._.'  '/'
+             `. --'-- .'
+               `-...-'
+              ''')
+        print("Oops there was a big bear in this cave and it killed you")
+        print("GAME OVER")
+else :
+    print('''
+
+      /^\      /^\
+      |  \    /  |
+      ||\ \../ /||
+      )'        `(
+     ,;`w,    ,w';,
+     ;,  ) __ (  ,;
+      ;  \(\/)/  ;;
+     ;|  |vwwv|    ``-...
+      ;  `lwwl'   ;      ```''-.
+     ;| ; `""' ; ;              `.
+      ;         ,   ,          , |
+      '  ;      ;   l    .     | |
+      ;    ,  ,    |,-,._|      \;
+       ;  ; `' ;   '    \ `\     \;
+       |  |    |  |     |   |    |;
+       |  ;    ;  |      \   \   (;
+       | |      | l       | | \  |
+       | |      | |  pb   | |  ) |
+       | |      | ;       | |  | |
+       ; ,      : ,      ,_.'  | |
+      :__'      | |           ,_.'
+               `--'
+    ''')
+    print("You have entered the area where there are wolves and they are ate you")
+    print("GAME OVER")
