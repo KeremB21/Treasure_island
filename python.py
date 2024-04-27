@@ -1,5 +1,62 @@
-print('''
-*******************************************************************************
+print("Welcome to Treasure Island.")
+print("Your mission is to find the treasure.")
+choose1 = input("Firstly, you should pick a way are you want to go 'Left' or 'Right' \n").lower()
+if choose1 == "right" :
+    print("Congratulations you have picked true way and you saw big cave in the island what will you do")
+    choose2 = input("will you 'go into' or 'not' \n").lower()
+    if choose2 == "not" :
+        print("You didn't go into in this cave and you are moving on")
+        print("You saw a king in across the lake what will you do")
+        choose3 = input("Are you want to go near this king 'Yes' or 'No' \n").lower()
+        if choose3 == "yes" :
+            print("You have come to the king.")
+            print('''
+                  o .,<>., o
+                                                                |\/\/\/\/|
+                                                                '========'
+                                                                (_ SSSSSSs
+                                                                )a'`SSSSSs
+                                                               /_   SSSSSS
+                                                               .=## SSSSS
+                                                               .####  SSSSs
+                                                               ###::::SSSSS
+                                                              .;:::""""SSS
+                                                             .:;:'  . .  \\
+                                                            .::/  '     .'|
+                                                           .::( .         |
+                                                           :::)           \
+                                                           /\(            /
+                                                          /)            ( |
+                                                        .'  \  .       ./ /
+                                                     _-'    |\  .        |
+                                   _..--..   .  /"---\      | ` |      . |
+           -=====================,' _     \=(*#(7.#####()   |  `/_..   , (
+                       _.-''``';'-''-) ,.  \ '  '+/// |   .'/   \  ``-.) \
+                     ,'  _.-  ((    `-'  `._\    `` \_/_.'  )    /`-._  ) |
+                   ,'\ ,'  _.'.`:-.    \.-'                 /   <_L   )"  |
+                 _/   `._,' ,')`;  `-'`'                    |     L  /    /
+                / `.   ,' ,|_/ / \                          (    <_-'     \
+                \ / `./  '  / /,' \                        /|`         `. |
+                )\   /`._   ,'`._.-\                       |)            \'
+               /  `.'    )-'.-,' )__)                      |\            `|
+              : /`. `.._(--.`':`':/ \                      ) \             \
+              |::::\     ,'/::;-))  /                      ( )`.            |
+              ||:::::  . .::':  :`-(                       |/    .          |
+              ||::::|  . :|  |==[]=:                       .        -       \
+              |||:::|  : ||  :  |  |                      /\           `     |
+  ___ ___     '|;:::|  | |'   \=[]=|                     /  \                \
+ |   /_  ||``|||:::::  | ;    | |  |                     \_.'\_               `-.
+ :   \_``[]--[]|::::'\_;'     )-'..`._                 .-'\``:: ` .              \
+  \___.>`''-.||:.__,'         |_______`>              <_____:::.         . . \  _/
+                                                            `+a:f:......jrei'''
+
+                  '''''')
+            print("\n You have met the King")
+            print("King made you his chief protector")
+            choose4 = input("Enemy soldiers have appeared in front of you, what are you going to do, will you protect the King ('Yes' or 'No') \n").lower()
+            if "yes" :
+              print('''
+                    *******************************************************************************
           |                   |                  |                     |
  _________|________________.=""_;=.______________|_____________________|_______
 |                   |  ,-"_,=""     `"=.|                  |
@@ -17,42 +74,52 @@ ____/______/______/___|o;._    "      `".o|o_.--"    ;o;____/______/______/____
 ____/______/______/______/__"=._o--._   ;o|o;     _._;o;____/______/______/____
 /______/______/______/______/____"=._o._; | ;_.--"o.--"_/______/______/______/_
 ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
-/______/______/______/______/______/______/______/______/______/______/_____ /
+/______/______/______/______/______/______/______/______/______/______/
 *******************************************************************************
-''')
-print("Welcome to Treasure Island.")
-print("Your mission is to find the treasure.")
-choose1 = input("Firstly, you should pick a way are you want to go 'Left' or 'Right' \n").lower()
-if choose1 == "right" :
-    print("Congratulations you have picked true way and you saw big cave in the island what will you do")
-    choose2 = input("will you 'go into' or 'not' \n").lower()
-    if choose2 == "not" :
-        print("You didn't go into in this cave and you are moving on")
-        print("You saw a king in across the lake what will you do")
-        choose3 = input("Are you want to go near this king 'Yes' or 'No' \n").lower()
-        if choose3 == "Yes" :
-            print("")
+                    ''')
+              print("Congratulations You protected the king The king took you to the treasury as a reward and you won the game")
+            else :
+              print('''_.--.    .--._
+                 ."  ."      ".  ".
+                ;  ."    /\    ".  ;
+                ;  '._,-/  \-,_.`  ;
+                \  ,`  / /\ \  `,  /
+                 \/    \/  \/    \/
+                 ,=_    \/\/    _=,
+                 |  "_   \/   _"  |
+                 |_   '"-..-"'   _|
+                 | "-.        .-" |
+                 |    "\    /"    |
+                 |      |  |      |
+         ___     |      |  |      |     ___
+     _,-",  ",   '_     |  |     _'   ,"  ,"-,_
+   _(  \  \   \"=--"-.  |  |  .-"--="/   /  /  )_
+ ,"  \  \  \   \      "-'--'-"      /   /  /  /  ".
+!     \  \  \   \                  /   /  /  /     !
+:      \  \  \   \                /   /  /  /      TK''')
+              print("The king is dead, you couldn't protect him, and he could never lead you to the treasure")
+              print("GAME OVER")
         else :
             print('''
-                   ____
-                       / ___`\
-           /|         ( (   \ \
-      |^v^v  V|        \ \/) ) )
-      \  ____ /         \_/ / /
-      ,Y`    `,            / /
-      ||  -  -)           { }
-      \\   _\ |           | |
-       \\ / _`\_         / /
-       / |  ~ | ``\     _|_|
-    ,-`  \    |  \ \  ,//(_}
-   /      |   |   | \/  \| |
-  |       |   |   | '   ,\ \
-  |     | \   /  /\  _/`  | |
-  \     |  | |   | ``     | |
-   |    \  \ |   |        | |
-   |    |   |/   |        / /
-   |    |        |        | |
-   ''')
+                                     ____
+                                   / ___`\
+                       /|         ( (   \ \
+                      |^v^v  V|        \ \/) ) )
+                      \  ____ /         \_/ / /
+                       ,Y`    `,            / /
+                       ||  -  -)           { }
+                       \\   _\ |           | |
+                        \\ / _`\_         / /
+                         / |  ~ | ``\     _|_|
+                      ,-`  \    |  \ \  ,//(_}
+                     /      |   |   | \/  \| |
+                    |       |   |   | '   ,\ \
+                    |     | \   /  /\  _/`  | |
+                    \     |  | |   | ``     | |
+                     |    \  \ |   |        | |
+                     |    |   |/   |        / /
+                     |    |        |        | |
+                     ''')
             print("The king was going to take you to treasure")
             print("GAME OVER")
     else  :
