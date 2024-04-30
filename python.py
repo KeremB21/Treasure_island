@@ -54,7 +54,7 @@ if choose1 == "right" :
             print("\n You have met the King")
             print("King made you his chief protector")
             choose4 = input("Enemy soldiers have appeared in front of you, what are you going to do, will you protect the King ('Yes' or 'No') \n").lower()
-            if "yes" :
+            if choose4 == "yes" :
               print('''
                     *******************************************************************************
           |                   |                  |                     |
